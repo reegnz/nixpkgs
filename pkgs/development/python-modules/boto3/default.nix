@@ -13,7 +13,7 @@
 
 buildPythonPackage rec {
   pname = "boto3";
-  version = "1.24.42"; # N.B: if you change this, change botocore and awscli to a matching version
+  version = "1.24.80"; # N.B: if you change this, change botocore and awscli to a matching version
 
   src = fetchPypi {
     inherit pname version;
